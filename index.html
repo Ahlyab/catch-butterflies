@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Catch Butterflies</title>
+  </head>
+  <body>
+    <div class="screen">
+      <h1>Catch The Butterflies 🦋</h1>
+      <button class="btn" id="start-btn">Play Game</button>
+    </div>
+
+    <div class="screen">
+      <h1>What is your "favorite" butterfly?</h1>
+      <ul class="insects-list">
+        <li>
+          <button class="choose-insect-btn">
+            <p class="butterfly-name">Yellow butterfly</p>
+            <img src="https://pngimg.com/uploads/butterfly/butterfly_PNG103828.png" alt="yellow-butterfly" class="butterfly">
+          </button>
+        </li>
+        <li>
+          <button class="choose-insect-btn">
+            <p class="butterfly-name">Green Butterfly</p>
+            <img
+               src="https://pngimg.com/uploads/butterfly/butterfly_PNG1017.png"
+               alt="Green-Butterfly"
+               class="butterfly"
+               />
+          </button>
+        </li>
+        <li>
+          <button class="choose-insect-btn">
+            <p class="butterfly-name">Blue Butterfly</p>
+            <img
+               src="https://pngimg.com/uploads/butterfly/butterfly_PNG1020.png"
+               alt="Blue Butterfly"
+               class="butterfly"
+               />
+          </button>
+        </li>
+        <li>
+          <button class="choose-insect-btn">
+            <p class="butterfly-name">Purple Butterfly</p>
+            <img
+               src="https://pngimg.com/uploads/butterfly/butterfly_PNG1021.png"
+               alt="Purple Butterfly"
+               class="butterfly"
+               />
+          
+        </li>
+      </ul>
+    </div>
+
+    <div class="screen game-container" id="game-container">
+      <h3 id="time" class="time">Time: 00:00</h3>
+      <h3 id="score" class="score">Score: 0</h3>
+      <h5 id="message" class="message">
+        Are you annoyed yet? <br>
+        You are playing an impossible game!!<br>
+        <button class="btn extra-btn" id="resume-btn">Resume</button>
+        <button class="btn extra-btn" id="quit-btn">Quit</button>
+      </h5>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
